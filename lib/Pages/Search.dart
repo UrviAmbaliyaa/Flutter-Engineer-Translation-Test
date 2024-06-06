@@ -5,6 +5,7 @@ import 'package:demo/Theme/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:label_marker/label_marker.dart';
 
 class MapWidget extends StatefulWidget {
   const MapWidget({super.key});
@@ -18,7 +19,7 @@ class _MapWidgetState extends State<MapWidget> {
       Completer<GoogleMapController>();
   TextEditingController searchController = TextEditingController();
   bool openpopup = false;
-  final Set<Marker> _markers = {};
+  Set<Marker> _markers = {};
   final Placename = [
     "San Francisco",
     "Los Angeles",
@@ -46,16 +47,17 @@ class _MapWidgetState extends State<MapWidget> {
 
   void _setMarkers() {
     for (int i = 0; i < places.length; i++) {
-      _markers.add(
-        Marker(
-          markerId: MarkerId(i.toString()),
-          position: places[i],
-          infoWindow: InfoWindow(
-            title: Placename[0],
-          ),
-        ),
-      );
+      _markers.addLabelMarker(
+          LabelMarker(
+            label: Placename[i].toString(),
+            markerId: MarkerId(i.toString()),
+            position: places[i],
+            backgroundColor: Colors.orange,
+            flat: true
+          )
+      ).then((value) => setState(() {}));
     }
+
   }
 
   @override
@@ -67,8 +69,7 @@ class _MapWidgetState extends State<MapWidget> {
 
   @override
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
-    double height = MediaQuery.of(context).size.height;
+
     return Scaffold(
       body: SafeArea(
         child: Stack(
@@ -78,7 +79,6 @@ class _MapWidgetState extends State<MapWidget> {
                   target: places.first,
                   zoom: 0,
                 ),
-
                 markers: _markers,
                 onMapCreated: (GoogleMapController controller) {
                   _controller.complete(controller);
@@ -101,7 +101,7 @@ class _MapWidgetState extends State<MapWidget> {
                             width: MediaQuery.sizeOf(context).width * 0.7,
                             child: TextFormField(
                               controller: searchController,
-                              autofocus: true,
+                              autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: false,
@@ -110,33 +110,26 @@ class _MapWidgetState extends State<MapWidget> {
                                   letterSpacing: 0,
                                 ),
                                 hintText: 'Saint Petersbug',
-                                hintStyle:  TextStyle(
+                                hintStyle: TextStyle(
                                   fontFamily: 'Readex Pro',
                                   letterSpacing: 0,
                                 ),
                                 border: OutlineInputBorder(
-                                  borderRadius: BorderRadius.circular(50),
-                                  borderSide: BorderSide(
-                                    color: Colors.transparent
-                                  )
-                                ),
+                                    borderRadius: BorderRadius.circular(50),
+                                    borderSide:
+                                        BorderSide(color: Colors.transparent)),
                                 focusedBorder: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(50),
-                                    borderSide: BorderSide(
-                                        color: Colors.transparent
-                                    )
-                                ),
+                                    borderSide:
+                                        BorderSide(color: Colors.transparent)),
                                 enabledBorder: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(50),
-                                    borderSide: BorderSide(
-                                        color: Colors.transparent
-                                    )
-                                ),
+                                    borderSide:
+                                        BorderSide(color: Colors.transparent)),
                                 filled: true,
                                 fillColor: AppColor.white,
                                 contentPadding:
-                                EdgeInsetsDirectional.fromSTEB(
-                                    0, 10, 0, 0),
+                                    EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                 prefixIcon: Icon(
                                   Icons.search_sharp,
                                   size: 24,
@@ -153,21 +146,16 @@ class _MapWidgetState extends State<MapWidget> {
                           width: 47,
                           height: 47,
                           decoration: BoxDecoration(
-                            color:AppColor.primaryBackground,
+                            color: AppColor.primaryBackground,
                             shape: BoxShape.circle,
                           ),
-                          child: Icon(
-                            Icons.filter_tilt_shift_sharp,
-                            color: AppColor.primaryTextColor,
-                            size: 24,
-                          ),
+                          child: Image.asset("assets/filter.png",width: 24),
                         ),
                       ],
                     ),
                   ),
-
                   Padding(
-                    padding: EdgeInsets.only(left: 50,right: 50,bottom: 100),
+                    padding: EdgeInsets.only(left: 50, right: 50, bottom: 100),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -180,19 +168,13 @@ class _MapWidgetState extends State<MapWidget> {
                             decoration: BoxDecoration(shape: BoxShape.circle),
                             padding: EdgeInsets.all(15),
                             clipBehavior: Clip.antiAlias,
-                            child: Icon(
-                              Icons.data_object_rounded,
-                              color: AppColor.black,
-                            ),
+                            child:Image.asset("assets/database.png",color: AppColor.white,width: 15,),
                           ),
                           overlay: Container(
                             decoration: BoxDecoration(shape: BoxShape.circle),
                             padding: EdgeInsets.all(15),
                             clipBehavior: Clip.antiAlias,
-                            child: Icon(
-                              Icons.data_object_rounded,
-                              color: AppColor.white,
-                            ),
+                            child: Image.asset("assets/database.png",color: AppColor.white,width: 15),
                           ),
                         ),
                         SizedBox(height: 20),
@@ -205,23 +187,17 @@ class _MapWidgetState extends State<MapWidget> {
                               blurColor: Colors.grey,
                               child: Container(
                                 decoration:
-                                BoxDecoration(shape: BoxShape.circle),
+                                    BoxDecoration(shape: BoxShape.circle),
                                 padding: EdgeInsets.all(15),
                                 clipBehavior: Clip.antiAlias,
-                                child: Icon(
-                                  Icons.send,
-                                  color: AppColor.black,
-                                ),
+                                child:  Image.asset("assets/send.png",color: AppColor.white,width: 15),
                               ),
                               overlay: Container(
                                 decoration:
-                                BoxDecoration(shape: BoxShape.circle),
+                                    BoxDecoration(shape: BoxShape.circle),
                                 padding: EdgeInsets.all(15),
                                 clipBehavior: Clip.antiAlias,
-                                child: Icon(
-                                  Icons.send,
-                                  color: AppColor.white,
-                                ),
+                                child:  Image.asset("assets/send.png",color: AppColor.white,width: 20),
                               ),
                             ),
                             Blur(
@@ -242,10 +218,11 @@ class _MapWidgetState extends State<MapWidget> {
                                   clipBehavior: Clip.antiAlias,
                                   child: Row(
                                     children: [
-                                      Icon(Icons.list,color: AppColor.white),
+                                      Icon(Icons.list, color: AppColor.white),
                                       SizedBox(width: 10),
                                       Text("List of variants",
-                                          style: TextStyle(color: AppColor.white))
+                                          style:
+                                              TextStyle(color: AppColor.white))
                                     ],
                                   ),
                                 ),
@@ -264,10 +241,11 @@ class _MapWidgetState extends State<MapWidget> {
                                   clipBehavior: Clip.antiAlias,
                                   child: Row(
                                     children: [
-                                      Icon(Icons.list,color: AppColor.white),
+                                      Icon(Icons.list, color: AppColor.white),
                                       SizedBox(width: 10),
                                       Text("List of variants",
-                                          style: TextStyle(color: AppColor.white))
+                                          style:
+                                              TextStyle(color: AppColor.white))
                                     ],
                                   ),
                                 ),
@@ -278,7 +256,6 @@ class _MapWidgetState extends State<MapWidget> {
                       ],
                     ),
                   ),
-                 
                 ],
               ),
             ),
@@ -288,4 +265,3 @@ class _MapWidgetState extends State<MapWidget> {
     );
   }
 }
-

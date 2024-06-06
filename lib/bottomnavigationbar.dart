@@ -1,3 +1,4 @@
+import 'package:demo/Theme/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:demo/Pages/Favorite.dart';
@@ -16,8 +17,16 @@ class bottomnavigationbar extends StatefulWidget {
 
 class _bottomnavigationbarState extends State<bottomnavigationbar> {
   int _SelectedTab = 2;
-  List navibarIcons = [CupertinoIcons.map,Icons.message,CupertinoIcons.home,Icons.favorite,Icons.person];
   List navibarpages = [MapWidget(),chat(),HomePageWidget(),Favorite(),profile()];
+  List Icons = [
+    "assets/find.png",
+    "assets/chat.png",
+    "assets/home.png",
+    "assets/heart.png",
+    "assets/user.png",
+  ];
+
+
   @override
   Widget build(BuildContext context) {
    return Scaffold(
@@ -41,7 +50,7 @@ class _bottomnavigationbarState extends State<bottomnavigationbar> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: List.generate(navibarIcons.length, (index) =>
+                  children: List.generate(Icons.length, (index) =>
                       InkWell(
                         onTap: () => setState(() {
                           _SelectedTab = index;
@@ -53,8 +62,14 @@ class _bottomnavigationbarState extends State<bottomnavigationbar> {
                             shape: BoxShape.circle,
                             color: _SelectedTab == index? Color(0xFFFC9E12) : Colors.black,
                           ),
-                          padding: EdgeInsets.all(5),
-                          child: Icon(navibarIcons[index],color:  Colors.white,size: 25,),
+                          padding: EdgeInsets.all(10),
+                          clipBehavior: Clip.antiAlias,
+                          child: Image.asset(
+                              Icons[index],
+                            color:AppColor.white,
+                            width: 25,
+                            height: 25,
+                          ),
                         ),
                       ),
                   ),

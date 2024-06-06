@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:2:5-35:19
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:2:5-35:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\01dbff8927e8b2aa767c55cc1914bf9e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
@@ -20,15 +20,15 @@ MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\Savan Am
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.6.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\d08c73bfb05384f2e52578171dbd141e\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
 	android:name
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-MERGED from [:google_maps_flutter_android] C:\Users\Savan Ambaliya\StudioProjects\demo\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Savan Ambaliya\StudioProjects\demo\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+MERGED from [:google_maps_flutter_android] D:\projects\Github_project\Flutter-Engineer-Translation-Test\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\projects\Github_project\Flutter-Engineer-Translation-Test\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\99750bb863b6fe460a7b5da8686e778d\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\01dbff8927e8b2aa767c55cc1914bf9e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
@@ -51,31 +51,31 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Sa
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\e1d8c2bc91e7b6cf427c9a8e7753caca\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\0402178c0a70d517a273fdbfef37b476\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml:1:1-7:12
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 	package
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:1-36:12
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:1-36:12
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-MERGED from [:google_maps_flutter_android] C:\Users\Savan Ambaliya\StudioProjects\demo\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:google_maps_flutter_android] C:\Users\Savan Ambaliya\StudioProjects\demo\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Savan Ambaliya\StudioProjects\demo\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Savan Ambaliya\StudioProjects\demo\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+MERGED from [:google_maps_flutter_android] D:\projects\Github_project\Flutter-Engineer-Translation-Test\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:google_maps_flutter_android] D:\projects\Github_project\Flutter-Engineer-Translation-Test\build\google_maps_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\projects\Github_project\Flutter-Engineer-Translation-Test\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] D:\projects\Github_project\Flutter-Engineer-Translation-Test\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\99750bb863b6fe460a7b5da8686e778d\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\99750bb863b6fe460a7b5da8686e778d\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -120,20 +120,20 @@ MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\Savan Am
 MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\0402178c0a70d517a273fdbfef37b476\transformed\jetified-android-maps-utils-3.6.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
-INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
+INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml:6:5-66
+ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml:6:5-66
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\01dbff8927e8b2aa767c55cc1914bf9e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\01dbff8927e8b2aa767c55cc1914bf9e\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\Savan Ambaliya\StudioProjects\demo\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from D:\projects\Github_project\Flutter-Engineer-Translation-Test\android\app\src\debug\AndroidManifest.xml:6:22-64
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Savan Ambaliya\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
 	android:required
